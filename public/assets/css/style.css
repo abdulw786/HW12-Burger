@@ -1,17 +1,4 @@
 
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-video {
-  position: relative;
-  z-index: 0;
-  opacity: 0.5;
-}
 
 h1, h2, p, ul {
 	text-align: center;
@@ -25,6 +12,7 @@ li {
 body{
 background-image: url(../img/Cheeseburger.png);
 background-size: cover;
+opacity: 0.8;
 }
 
 .label {
@@ -39,8 +27,12 @@ background-size: cover;
 
 .form-group {
   margin-bottom: 5px;
+  color: #39e9e0;
 }
 
 #eatenbuger{
   margin-left: 20pc;
+}
+h3, h2,h1 {
+  color: #39e9e0;
 }
